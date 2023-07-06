@@ -32,4 +32,4 @@ function validParentheses(parenStr) {
 * SPbGU - russian philology
 * Rs school
 ## Languages
-* English - B1-B2
+* English - B2
