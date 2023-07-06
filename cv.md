@@ -1,5 +1,5 @@
 # Anastasia Vdovina
-## Contacts
+### Contacts
 __Location:__ Russia
 
 __Telegram:__ @humfunc
@@ -11,6 +11,7 @@ I am instructional designer and I want to learn JavaScript to have more tools fo
 * Sublime text
 * Git / Github (begginer)
 * Figma (begginer)
+
 ## Code Example
 ```
 function validParentheses(parenStr) {
@@ -28,6 +29,7 @@ function validParentheses(parenStr) {
   return b === 0;
   }
 ```
+
 ## Education
 * SPbGU - russian philology
 * Rs school
