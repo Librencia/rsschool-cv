@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+	<<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
 	<title>Anastasia Vdovina - CV</title>
 </head>
@@ -14,84 +13,24 @@
 	 <nav class="center">
 		<ul>
 			<li>
-				<div class="menu-item menu-active">cv</div>
+				<a class="menu-item" href="index.html">cv</a>
 			</li>
 			<li>
-				<a class="menu-item" href="portfolio.html">portfolio</a>
+				<div class="menu-item menu-active">portfolio</div>
 			</li>
 		</ul>
 	 </nav>
 	</header>
 	<!-- Сама страница -->
 	<main class="center main">
-		<img class="foto" src="images/photo.jpg" alt="Фотография Анастасии" width="150" height="150">
-		<h1>Anastasia Vdovina</h1>
-		<h3>Contacts</h3>
-		<ul>
-			<li>Location: Russia</li>
-			<li>Telegram: @humfunc</li>
-		</ul>
-		<!-- Конец блока с контактами -->
-		<h2>About</h2>
-		<p>I am instructional designer and I want to learn JavaScript to have more tools for my work.</p>
-		<h2>Skills</h2>
-		<ul class="skills">
-			<li class="skill">HTML (begginer)</li>
-			<li class="skill">CSS (begginer)</li>
-			<li class="skill">JavaScript (begginer)</li>
-			<li class="skill">Sublime text</li>
-			<li class="skill">Git / Github (begginer)</li>
-			<li class="skill">Figma (begginer)</li>
-		</ul>
-		<h2>Code Example</h2>
-		<p class="code">
-			<code>
-			function validParentheses(parenStr) {<br>
-  			let b = 0;<br>
-  			for(let i = 0; i = parenStr.length; i++) {<br>
-    		if (parenStr[i] === '(') {<br>
-      		b++;<br>
-    		} else {<br>
-      		b--;<br>
-    		}<br>
-    		if (b = 0) {<br>
-      		return false;<br>
-    		}<br>
-  			}<br>
-  			return b === 0;<br>
-  			}<br>
-			</code>
-		</p>
-		<h2>Works</h2>
-		<table>
-			<tr>
-				<td class="edu-year">2023</td>
-				<td>CV#1 (md) <a href="https://librencia.github.io/rsschool-cv/cv" target="_blank">(source)</a></td>
-			</tr>
-		</table>
-		<h2>Education</h2>
-		<table>
-			<tr>
-				<td class="edu-year">2023</td>
-				<td>
-					<span class="edu-course">JavaScript/Front-end</span><br>RS School<br>Сертификат
-				</td>
-			</tr>
-			<tr>
-				<td class="year">2016</td>
-				<td>
-					<span class="edu-course">Base Adobe Illustrator</span><br>Profileschool<br><a href="images/sert.jpg" target="_blank">Сертификат</a>
-				</td>
-			</tr>
-			<tr>
-				<td class="year">2013</td>
-				<td>
-					<span class="edu-course">Russian philology</span><br>SPbGU
-				</td>
-			</tr>
-		</table>
-		<h2>Languages</h2>
-		<p>English - B2</p>
+		<h2>Игра «Загадки»</h2>
+		<p>В этой игре вы сможете ответить на 4 загадки.</p>
+		<p>Загадки появляются во всплывающем окне.</p>
+		<p>Игра проверит ваши ответы и посчитает количество правильных ответов.</p>
+		<p>Нажмите на кнопку, чтобы начать.</p>
+		<div class="block">
+			<a href="#" onclick="play();" class="button center-v">Начать игру</a>
+		</div>
 	</main>
 	<!-- Подвал сайта -->
 	<footer class="menu">
@@ -115,6 +54,7 @@
 			</ul>
 		</div>
 	</footer>
-	</div>
+</div>
+	<script src="scripts/zagadki.js"></script>
 </body>
 </html>
