@@ -1,0 +1,166 @@
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin: 0px;
+	background-color: #0A263E;
+	color: #fff;
+	font-family: "Comfortaa", "Verdana", sans-serif;
+	font-size: 14px;
+	min-width: 900px;
+	line-height: 1.8;
+	font-weight: normal;
+}
+.center {
+	width: 900px;
+	margin: 0 auto;
+}
+a {
+	color: #557d9f;
+	text-decoration: none;
+}
+a:hover {
+	color: #B05C39;
+}
+.menu {
+	background-color: #031728;
+	height: 50px;
+	text-align: center;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+.menu li {
+	display: inline-block;
+	vertical-align: middle
+}
+.menu a:hover {
+	background-color: #0A263E;
+}
+.menu-item {
+	display: block;
+	width: 150px;
+	height: 50px;
+	font-size: 17px;
+	color: #557D9F;
+	line-height: 50px;
+}
+.menu-active {
+	background-color: #0A263E;
+}
+
+.main {
+	margin-top: 10px;
+	padding-bottom: 60px;
+}
+h1,
+ul {
+	margin: 0px;
+}
+h1 {
+	margin-top: 10px;
+	padding-top: 10px;
+	line-height: 26px;
+}
+.foto {
+	float: left;
+	margin: 0 30px 10px 0;
+	padding: 6px;
+	border: 1px solid white;
+}
+h2 {
+	border-bottom: #B05C39 solid 1px;
+	clear: both;
+}
+h2,
+h3 {
+	color: #B05C39;
+	padding-bottom: 3px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+.skills {
+	padding-left: 0px;
+}
+.skills li {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 4px;
+}
+.skill {
+	display: inline-block;
+	background-color: #3B719F;
+	border-radius: 10px;
+	color: #031728;
+	font-family: "Source Sans Pro";
+	font-size: 18px;
+	margin-top: 14px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.code {
+	background-color: #031728;
+	border-radius: 10px;
+}
+code {
+	font-family: "IBM Plex Mono", monospace;
+}
+table {
+  width: 100%;
+  border-spacing: 5px 20px;
+}
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+.edu-year {
+	width: 140px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.edu-course {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+footer {
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+}
+footer li {
+	margin: 5px 0;
+}
+a svg:hover #github,
+a svg:hover #rsschool {
+  fill: #B05C39;
+}
+
+.block {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.button {
+	display: inline-block;
+	height: 40px;
+	width: 200px;
+	background-color: #3B719F;
+	border-radius: 20px;
+	color: #031728;
+	font-size: 24px;
+}
+.button:hover {
+	background-color: #B05C39;
+	color: #031728;
+}
